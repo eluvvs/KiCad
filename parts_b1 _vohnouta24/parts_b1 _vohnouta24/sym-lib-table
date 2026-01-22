@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "parts_b1_vohnouta24")(type "KiCad")(uri "${KIPRJMOD}/parts_b1_vohnouta24.kicad_sym")(options "")(descr ""))
+)
