@@ -9,8 +9,8 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J"
-			(at 24.13 5.08 0)
+		(property "Reference" "J2"
+			(at 17.78 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18,7 +18,7 @@
 			)
 		)
 		(property "Value" "SIMSD"
-			(at 24.13 5.08 0)
+			(at 19.05 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -552,16 +552,16 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(property "Reference" "J"
-			(at 0 0 0)
+		(property "Reference" "J1"
+			(at 11.43 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" ""
-			(at 0 0 0)
+		(property "Value" "encoder"
+			(at 13.97 3.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -597,8 +597,8 @@
 		)
 		(symbol "encoder_0_1"
 			(rectangle
-				(start -3.81 0)
-				(end -3.81 0)
+				(start 1.27 2.54)
+				(end 1.27 2.54)
 				(stroke
 					(width 0)
 					(type default)
@@ -608,8 +608,20 @@
 				)
 			)
 			(rectangle
-				(start -3.81 0)
-				(end -3.81 0)
+				(start 1.27 2.54)
+				(end 1.27 2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.81 3.81) (xy 6.35 3.81)
+				)
 				(stroke
 					(width 0)
 					(type default)
@@ -621,8 +633,8 @@
 		)
 		(symbol "encoder_1_1"
 			(rectangle
-				(start -3.81 3.81)
-				(end 3.81 -2.54)
+				(start 1.27 6.35)
+				(end 8.89 0)
 				(stroke
 					(width 0)
 					(type solid)
@@ -632,7 +644,7 @@
 				)
 			)
 			(circle
-				(center 0 0)
+				(center 5.08 2.54)
 				(radius 1.7961)
 				(stroke
 					(width 0)
@@ -643,7 +655,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -2.54 270)
+				(at 2.54 0 270)
 				(length 2.54)
 				(name "A"
 					(effects
@@ -661,7 +673,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 270)
+				(at 5.08 0 270)
 				(length 2.54)
 				(name "C"
 					(effects
@@ -679,7 +691,7 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -2.54 270)
+				(at 7.62 0 270)
 				(length 2.54)
 				(name "B"
 					(effects
