@@ -68,8 +68,8 @@
 		(start -6.5 -7)
 		(end -3.5 -7)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.2)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "aafdb7fe-93b7-4ccf-af89-872b9c2f444e")
@@ -148,8 +148,8 @@
 		(start 6.5 -7)
 		(end 3.5 -7)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.2)
+			(type solid)
 		)
 		(layer "F.SilkS")
 		(uuid "62eaee97-5848-4b07-84a9-47b5692d7037")
