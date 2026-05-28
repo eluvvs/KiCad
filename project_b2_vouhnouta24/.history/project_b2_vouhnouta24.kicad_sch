@@ -1845,6 +1845,42 @@
 		(color 0 0 0 0)
 		(uuid "f9a852e1-97d8-4bdd-b82b-7afe3887dbcb")
 	)
+	(bus_entry
+		(at 256.54 190.5)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9817ad75-d05c-4aef-b6f0-2c0192779b59")
+	)
+	(bus_entry
+		(at 256.54 185.42)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3311a9d-0aca-4f00-ae1b-090395bf35d3")
+	)
+	(bus_entry
+		(at 256.54 187.96)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f17ea595-919c-4703-a441-2057eddc3555")
+	)
+	(bus_entry
+		(at 256.54 182.88)
+		(size 2.54 -2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ddf7e3-f6c8-43b6-a539-11d9126c28b3")
+	)
 	(wire
 		(pts
 			(xy 196.85 175.26) (xy 203.2 175.26)
@@ -1857,7 +1893,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 182.88) (xy 247.65 182.88)
+			(xy 245.11 182.88) (xy 256.54 182.88)
 		)
 		(stroke
 			(width 0)
@@ -1884,16 +1920,6 @@
 			(type default)
 		)
 		(uuid "1ff26f63-1be6-43e7-9218-f14af9b16cf4")
-	)
-	(wire
-		(pts
-			(xy 245.11 187.96) (xy 247.65 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a0ad235-ce4e-420f-9da1-dac9be193b5c")
 	)
 	(wire
 		(pts
@@ -1947,7 +1973,17 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 190.5) (xy 247.65 190.5)
+			(xy 245.11 187.96) (xy 256.54 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4335bd46-1365-4d71-af9c-03f2c6abba8b")
+	)
+	(wire
+		(pts
+			(xy 245.11 190.5) (xy 256.54 190.5)
 		)
 		(stroke
 			(width 0)
@@ -2035,19 +2071,9 @@
 		)
 		(uuid "b1b971cc-2540-4828-8f72-5e3a53536f3d")
 	)
-	(bus
-		(pts
-			(xy 259.08 177.8) (xy 259.08 199.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c08910c3-f1d9-4f41-bcec-70c9c0930f8f")
-	)
 	(wire
 		(pts
-			(xy 245.11 185.42) (xy 247.65 185.42)
+			(xy 245.11 185.42) (xy 256.54 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2065,15 +2091,55 @@
 		)
 		(uuid "d4fad37d-e2fa-4ff9-872e-4a53e446d8af")
 	)
-	(label "ispbus"
-		(at 259.08 190.5 0)
+	(bus
+		(pts
+			(xy 259.08 177.8) (xy 259.08 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecc6c84b-8e17-474d-8e70-8500dfe61499")
+	)
+	(label "ispbus{MISO,MOSI,SCK,RST}"
+		(at 259.08 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "d8a8bb29-b2ac-4c27-a7d2-d4380999ab48")
+		(uuid "11a84a7d-0d55-47eb-999a-dceff9ef9513")
+	)
+	(label "MISO"
+		(at 250.19 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2b2d7891-d946-45be-ad7e-feab956393a3")
+	)
+	(label "SCK"
+		(at 250.19 187.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cec21d2-585c-46fa-9609-16805b98d174")
+	)
+	(label "MOSI"
+		(at 250.19 185.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4d833164-f9e6-4823-b22f-8f05b05c2479")
 	)
 	(symbol
 		(lib_id "Device:C")
