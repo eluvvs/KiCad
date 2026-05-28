@@ -926,8 +926,8 @@
 			)
 			(symbol "ATmega328-P_0_1"
 				(rectangle
-					(start -12.7 -35.56)
-					(end 12.7 35.56)
+					(start -12.7 35.56)
+					(end 12.7 -35.56)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -939,7 +939,7 @@
 			)
 			(symbol "ATmega328-P_1_1"
 				(pin bidirectional line
-					(at 15.24 -20.32 180)
+					(at 15.24 -22.86 180)
 					(length 2.54)
 					(name "PD3"
 						(effects
@@ -957,7 +957,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -22.86 180)
+					(at 15.24 -25.4 180)
 					(length 2.54)
 					(name "PD4"
 						(effects
@@ -1010,8 +1010,44 @@
 						)
 					)
 				)
+				(pin power_in line
+					(at 2.54 -38.1 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 38.1 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
-					(at 15.24 15.24 180)
+					(at 15.24 17.78 180)
 					(length 2.54)
 					(name "XTAL1/PB6"
 						(effects
@@ -1029,7 +1065,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 12.7 180)
+					(at 15.24 15.24 180)
 					(length 2.54)
 					(name "XTAL2/PB7"
 						(effects
@@ -1047,7 +1083,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -25.4 180)
+					(at 15.24 -27.94 180)
 					(length 2.54)
 					(name "PD5"
 						(effects
@@ -1065,7 +1101,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -27.94 180)
+					(at 15.24 -30.48 180)
 					(length 2.54)
 					(name "PD6"
 						(effects
@@ -1083,7 +1119,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -30.48 180)
+					(at 15.24 -33.02 180)
 					(length 2.54)
 					(name "PD7"
 						(effects
@@ -1101,7 +1137,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 30.48 180)
+					(at 15.24 33.02 180)
 					(length 2.54)
 					(name "PB0"
 						(effects
@@ -1119,7 +1155,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 27.94 180)
+					(at 15.24 30.48 180)
 					(length 2.54)
 					(name "PB1"
 						(effects
@@ -1137,7 +1173,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 25.4 180)
+					(at 15.24 27.94 180)
 					(length 2.54)
 					(name "PB2"
 						(effects
@@ -1155,7 +1191,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 22.86 180)
+					(at 15.24 25.4 180)
 					(length 2.54)
 					(name "PB3"
 						(effects
@@ -1173,7 +1209,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 20.32 180)
+					(at 15.24 22.86 180)
 					(length 2.54)
 					(name "PB4"
 						(effects
@@ -1191,7 +1227,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 17.78 180)
+					(at 15.24 20.32 180)
 					(length 2.54)
 					(name "PB5"
 						(effects
@@ -1226,6 +1262,24 @@
 						)
 					)
 				)
+				(pin input line
+					(at 15.24 -7.62 180)
+					(length 2.54)
+					(name "ADC6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at -15.24 30.48 0)
 					(length 2.54)
@@ -1237,6 +1291,24 @@
 						)
 					)
 					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -38.1 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1263,8 +1335,26 @@
 						)
 					)
 				)
+				(pin input line
+					(at 15.24 -10.16 180)
+					(length 2.54)
+					(name "ADC7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
-					(at 15.24 7.62 180)
+					(at 15.24 11.43 180)
 					(length 2.54)
 					(name "PC0"
 						(effects
@@ -1282,7 +1372,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 5.08 180)
+					(at 15.24 8.89 180)
 					(length 2.54)
 					(name "PC1"
 						(effects
@@ -1300,7 +1390,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 2.54 180)
+					(at 15.24 6.35 180)
 					(length 2.54)
 					(name "PC2"
 						(effects
@@ -1318,7 +1408,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 0 180)
+					(at 15.24 3.81 180)
 					(length 2.54)
 					(name "PC3"
 						(effects
@@ -1336,7 +1426,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -2.54 180)
+					(at 15.24 1.27 180)
 					(length 2.54)
 					(name "PC4"
 						(effects
@@ -1354,7 +1444,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -5.08 180)
+					(at 15.24 -1.27 180)
 					(length 2.54)
 					(name "PC5"
 						(effects
@@ -1372,7 +1462,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -7.62 180)
+					(at 15.24 -3.81 180)
 					(length 2.54)
 					(name "~{RESET}/PC6"
 						(effects
@@ -1390,7 +1480,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -12.7 180)
+					(at 15.24 -15.24 180)
 					(length 2.54)
 					(name "PD0"
 						(effects
@@ -1408,7 +1498,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -15.24 180)
+					(at 15.24 -17.78 180)
 					(length 2.54)
 					(name "PD1"
 						(effects
@@ -1426,7 +1516,7 @@
 					)
 				)
 				(pin bidirectional line
-					(at 15.24 -17.78 180)
+					(at 15.24 -20.32 180)
 					(length 2.54)
 					(name "PD2"
 						(effects
@@ -2641,6 +2731,21 @@
 		)
 		(pin "26"
 			(uuid "79a78e89-bc00-4838-85a3-8a33ca016305")
+		)
+		(pin "6"
+			(uuid "eae27ab9-f547-4669-b963-da092130d377")
+		)
+		(pin "5"
+			(uuid "9915f68a-fe60-4f18-960e-bff4c427261e")
+		)
+		(pin "21"
+			(uuid "04735961-4052-4e1e-abd7-21051fcfd167")
+		)
+		(pin "19"
+			(uuid "369c3f7f-d5f9-4aef-a24a-648253433c41")
+		)
+		(pin "22"
+			(uuid "43ac595c-075e-4fc4-8dfd-357a4bcca27e")
 		)
 		(instances
 			(project "project_b2_vouhnouta24"
